@@ -7,14 +7,18 @@ Paste-To-File is a simple Python programs that lets you paste image or text from
 
 ## Installation
 
-Installation is as easy as running the installer which could be downloaded from the <a href=https://github.com/Neek0tine/Paste-to-File/releases/tag/v1.0.0> releases </a> page. <b>Uninstallation can and should be done using Windows uninstaller </b> to not leave any registry files leftovers. If a broken uninstallation has occured and the context menu command still exists after the Program Files (x86)/Paste-to-File directory deletion, you can run `delete_reg.py` directly from the `src` folder to remove it; keep in mind that it requires the `winreg` Python library and administrator privileges.
+Download and run the installer [here](https://github.com/NeekJK/Paste-to-File/releases/download/v1.0.0/Paste-to-File_Installer.exe) Make sure to check "Don't create start menu folder" as this program has no GUI. <br><br>
+~~Installation is as easy as running the installer which could be downloaded from the <a href=https://github.com/Neek0tine/Paste-to-File/releases/tag/v1.0.0> releases </a> page. <b>Uninstallation can and should be done using Windows uninstaller </b> to not leave any registry files leftovers. If a broken uninstallation has occured and the context menu command still exists after the Program Files (x86)/Paste-to-File directory deletion, you can run `delete_reg.py` directly from the `src` folder to remove it; keep in mind that it requires the `winreg` Python library and administrator privileges.~~
 
 <img src="https://github.com/Neek0tine/Neek0tine/blob/main/stuff/disclaimer.png" alt="BE CAREFUL." width="1080"/>
 
 This program is dependent on these modules:
-- `winreg`
-- `pillow`
-- `pywin23`
+~~- `winreg`~~ (Python)
+~~- `pillow`~~ (Python)
+~~- `pywin23`~~ (Python)
+- arboard (Rust) 
+- image (Rust)
+
 
 ## End-User License Agreement
 As per the MIT License:
