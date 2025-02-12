@@ -1,0 +1,11 @@
+[package]
+name = "paste-to-file"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arboard = "3.4.1"
+image = "0.25.5"
+
+[build-dependencies]
+embed-resource = "3.0"
